@@ -82,5 +82,3 @@ For example:
 - [How to Create Services](https://docs.medusajs.com/advanced/backend/services/create-service)
 
 If you also used any other framework, service, or tool, you can include some links to helpful resources related to those tools.
-# integrate-medusa-with-rocketchat
-# integrate-medusa-with-rocketchat
