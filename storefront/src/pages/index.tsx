@@ -9,12 +9,16 @@ import Script from "next/script"
 const Home: NextPageWithLayout = () => {
   return (
     <>
-      <Script id="rocket-chat" src="/rocketchat.js" strategy="afterInteractive" />
-      <Head
+      <Script id="rocket-chat" strategy="afterInteractive">
+        {`
+          // paste the rocketchat script within this template literals
+        `}
+      </Script>
+      <Head        
         title="Home"
         description="Shop all available models only at the ACME. Worldwide Shipping. Secure Payment."
       />
-      <Hero />
+      <Hero  />
       <FeaturedProducts />
     </>
   )
